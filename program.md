@@ -85,4 +85,27 @@ And succeed.
 
 ## ROS
 
+[Follow the offical website](http://wiki.ros.org/indigo/Installation/Ubuntu)
+
+Note, for possible speed up, use [USTC (China) mirror](http://wiki.ros.org/ROS/Installation/UbuntuMirrors)
+
 ## SLAM
+
+[LSD-SLAM 编译过程（Ubuntu 14.04 + ROS Indigo）](http://blog.csdn.net/xueyinhualuo/article/details/48490939), nice artical.
+
+[LSD_SLAM](https://github.com/tum-vision/lsd_slam)
+
+First build, failed:
+
+``` vi
+  [rosbuild] Building package lsd_slam_viewer
+  Failed to invoke /opt/ros/indigo/bin/rospack deps-manifests lsd_slam_viewer
+  [rospack] Error: the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+```
+
+This error msg is clear enough, just call 'sudo rosdep init' and 'rosdep update' to resolve it.
+
+
+Again, fialed, cannot link `-lGL`, `ls /usr/lib | grep GL` only find `libGL.so.1` and doesn't have `libGL.so`. And in the `/usr/lib32`, a `libGL.so` exists. So, it should be the Nvidia GPU's problem.
+
+Just `sudo copy libGL.so.1 libGL.so` solve this problem, it's ugly.

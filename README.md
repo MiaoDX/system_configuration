@@ -44,4 +44,16 @@ And then, we can just use `sub_cn` to launch `sublime with chinese support`.
 `sudo apt-get install network-manager-gnome network-manager-pptp network-manager-openvpn`
 
 
-##
+## tmux
+
+`sudo apt-get install tmux`
+
+Want to find a `multi screen`, found `screen` and `tmux`, I don't think it's so good.
+
+## terminator
+
+`sudo apt-get install terminator`
+
+Ugly, but what I want. ->
+
+Customerize it, `right click -> preference -> Profiles -> Colors -> Build-in schemes -> choose 'WHAT_YOU_LIKE'`
