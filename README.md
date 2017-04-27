@@ -6,6 +6,12 @@
 * [fonts](https://www.ostechnix.com/install-microsoft-windows-fonts-ubuntu-16-04/)
 And [很简单的在Ubuntu系统下安装字体和切换默认字体的方法](https://my.oschina.net/itblog/blog/278566)
 
+## ssh
+``` vi
+sudo apt-get install openssh-server
+sudo ps -e | grep ssh
+sudo service ssh start
+```
 
 ## util
 
