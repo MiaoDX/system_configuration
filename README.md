@@ -15,13 +15,15 @@ sudo service ssh start
 
 ## util
 
-vim
-zsh & oh-my-zsh
+* vim
+* git
+* zsh & [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+set `oh-my-zsh` theme to `random` by change `~/.zshrc` file with `ZSH_THEME="random"`, since I have not find the prefer one to use.
 
 ## su
 
-$ sudo passwd
-Set the `su` password
+`$ sudo passwd` to set the `su` password
 
 ## subl Chinese support
 
