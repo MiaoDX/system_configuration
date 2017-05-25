@@ -37,6 +37,16 @@ Clover can open multi Windows Explorer like the pages in chrome.
 
 Since cuda v7.5 dose not support vs2015, we choose cuda v8.
 
+## python3 & python2
+
+`choco`
+
+* virtualenv
+
+## visual studio code
+
+## cmake
+
 # System
 
 ## .NET Framework 3.5 (包括 2.0 和 3.0)
@@ -52,4 +62,8 @@ Change `E` to the proper one.
 ## DirectX Repair V2.1
 
 Fix the potential lacking DirectX files problem.
+
+## Office 2016
+
+## Firefox
 
