@@ -12,4 +12,6 @@ This repository will record what I add to fresh windows and ubuntu as time goes 
 
 ## Ubuntu
 
-[ubuntu.md](ubuntu.md)
+* [Normal tools for ubuntu](ubuntu.md)
+* [Programming tools](program.md)
+* [Tips](ubuntu_tips.md)

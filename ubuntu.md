@@ -65,3 +65,13 @@ Want to find a `multi screen`, found `screen` and `tmux`, I don't think it's so 
 Ugly, but what I want. ->
 
 Customerize it, `right click -> preference -> Profiles -> Colors -> Build-in schemes -> choose 'WHAT_YOU_LIKE'`
+
+## f.lux
+
+[the linux verison](https://justgetflux.com/linux.html)
+
+## rabbitvcs
+
+[The alternative tool of tortoisegit in windows for linux](http://rabbitvcs.org/)
+
+When only need to install the `rabbitvcs-nautilus` and `rabbitvcs-cli` (others are also doing no harm), [installation instructions can be found at official website](http://wiki.rabbitvcs.org/wiki/install/ubuntu)

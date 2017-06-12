@@ -140,7 +140,17 @@ I really want to not build from source, but the default `conda` will have troubl
 
 It have several conda repos and especially the [opencv3 one ](https://anaconda.org/menpo/opencv3), use it really seems nice.
 
-Note, the problem `GLib-GIO-Message: Using the 'memory' GSettings backend.  Your settings will not be saved or shared with other applications.` seems not influence us too much. If that annoys you, checkout [my-dconf-gsettings-installation-is-broken-how-can-i-fix-it-without-ubuntu-reins](https://askubuntu.com/questions/558446/my-dconf-gsettings-installation-is-broken-how-can-i-fix-it-without-ubuntu-reins). [NOT TESTED]
+### possible problems
+
+* `GLib-GIO-Message: Using the 'memory' GSettings backend.  Your settings will not be saved or shared with other applications.`
+
+It seems not influence us too much. If that annoys you, checkout [my-dconf-gsettings-installation-is-broken-how-can-i-fix-it-without-ubuntu-reins](https://askubuntu.com/questions/558446/my-dconf-gsettings-installation-is-broken-how-can-i-fix-it-without-ubuntu-reins). [NOT TESTED]
+
+* version `GLIBCXX_3.4.21' not found 
+
+[According to the answer of libstdc++.so.6: version `GLIBCXX_3.4.21' not found](https://github.com/BVLC/caffe/issues/4953), just `conda install libgcc`
+
+
 
 ## ROS
 
