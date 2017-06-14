@@ -130,6 +130,10 @@ $ sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 
 [NVIDIA/nvidia-docker](https://github.com/NVIDIA/nvidia-docker/wiki)
 
+## Arch when building with cuda
+
+[matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/](http://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/)
+
 ## opencv for python
 
 [pyimagesearch guide](http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
@@ -150,8 +154,21 @@ It seems not influence us too much. If that annoys you, checkout [my-dconf-gsett
 
 [According to the answer of libstdc++.so.6: version `GLIBCXX_3.4.21' not found](https://github.com/BVLC/caffe/issues/4953), just `conda install libgcc`
 
+## ipython/jupyter notebook
 
+For python2.7, this is a known issue:
 
+``` vi
+ File "/home/miao/py_env/conda_env/ALL_cv2_py27/lib/python2.7/site-packages/IPython/utils/terminal.py", line 22, in <module>
+    from backports.shutil_get_terminal_size import get_terminal_size as _get_terminal_size
+ImportError: No module named shutil_get_terminal_size
+```
+
+The isolated solution will be [ipython-console-cant-locate-backports-shutil-get-terminal-size-and-wont-load](https://stackoverflow.com/questions/37232446/ipython-console-cant-locate-backports-shutil-get-terminal-size-and-wont-load)
+
+``` vi
+conda install -c conda-forge backports.shutil_get_terminal_size
+```
 ## ROS
 
 [Follow the offical website](http://wiki.ros.org/indigo/Installation/Ubuntu)
@@ -181,7 +198,6 @@ Just `sudo copy libGL.so.1 libGL.so` solve this problem, it's ugly.
 
 ## Docker
 
-
 [reference:gym-unrealcv](https://github.com/zfw1226/gym-unrealcv)
 
 ``` vi
@@ -199,4 +215,4 @@ adding your user to the "docker" group with something like:
 Remember that you will have to log out and back in for this to take effect!
 ```
 
-And it is what we really need!! (Of course, your output should your user name)
+And it is what we really need (of course, your output should your user name), if it's possible, we shall keep away from `sudo` as much as possible !!
