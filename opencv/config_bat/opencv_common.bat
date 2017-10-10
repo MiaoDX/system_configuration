@@ -12,7 +12,7 @@ set PYTHON3_PATH=H:/py_env_conda/py_36_bare
 set SOURCE_DIR=%OpenCV_GIT%/opencv_git_checkout_3_3_0
 
 rem We use \ because the mkdir require this
-set BUILD_DIR=C:\tools\opencv_build_tmp\v3_3_0
+rem set BUILD_DIR=C:\tools\opencv_build_tmp\v3_3_0
 
 set VS_VERSION=14 2015
 set TOOLSET_VERSION=-T "v140"
