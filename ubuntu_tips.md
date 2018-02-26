@@ -11,6 +11,8 @@ There are some useful commands.
 
 Since I use windows a lot and I already have nice develop suite set up there, and when come into the Linux world, some alternative tools would be appealing, and there is a website for such thing: [alternativeto.net](http://alternativeto.net/).
 
+[cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch), alternative for `everything`.
+
 ## Show window's title bar
 
 System Settings -> Appearance -> Behavior -> Show the menus for a window, check `in the window's title tar`
