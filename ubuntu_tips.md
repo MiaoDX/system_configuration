@@ -13,6 +13,8 @@ Since I use windows a lot and I already have nice develop suite set up there, an
 
 [cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch), alternative for `everything`.
 
+[sha]
+
 ## Show window's title bar
 
 System Settings -> Appearance -> Behavior -> Show the menus for a window, check `in the window's title tar`

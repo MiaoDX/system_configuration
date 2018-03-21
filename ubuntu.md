@@ -1,7 +1,7 @@
 # List of what have changed after a fresh install
 
 * firefox (Chinese version), can synchronize between windows and linux.
-* 搜狗拼音
+* 搜狗拼音 [Ubuntu16.04安装搜狗拼音输入法（中文输入法）](https://www.cnblogs.com/darklights/p/7722861.html)
 * youdao
 * [fonts](https://www.ostechnix.com/install-microsoft-windows-fonts-ubuntu-16-04/)
 And [很简单的在Ubuntu系统下安装字体和切换默认字体的方法](https://my.oschina.net/itblog/blog/278566)
@@ -43,13 +43,6 @@ $ sudo chmod +x subl_cn
 ```
 
 And then, we can just use `sub_cn` to launch `sublime with chinese support`.
-
-
-## Green VPN
-
-[Ubuntu 设置 (OpenVPN方式)](https://www.getgreenjsq.me/shiyong/88.html)
-
-`sudo apt-get install network-manager-gnome network-manager-pptp network-manager-openvpn`
 
 
 ## tmux
