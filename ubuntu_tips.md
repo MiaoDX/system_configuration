@@ -13,7 +13,7 @@ Since I use windows a lot and I already have nice develop suite set up there, an
 
 [cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch), alternative for `everything`.
 
-[sha]
+[electron-ssr](https://github.com/erguotou520/electron-ssr), shadowsocks client for linux (should be cross-platform).
 
 ## Show window's title bar
 
