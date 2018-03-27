@@ -13,7 +13,11 @@ Since I use windows a lot and I already have nice develop suite set up there, an
 
 [cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch), alternative for `everything`.
 
-[electron-ssr](https://github.com/erguotou520/electron-ssr), shadowsocks client for linux (should be cross-platform).
+[erguotou520/electron-ssr](https://github.com/erguotou520/electron-ssr), shadowsocks client for linux (should be cross-platform).
+
+[G07cha/pomodoro](https://github.com/G07cha/pomodoro), pomodoro time management tool in windows, 
+[pomelloapp](https://pomelloapp.com/) free to use in linux, not so good, but okay.
+
 
 ## Show window's title bar
 
