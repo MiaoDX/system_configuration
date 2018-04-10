@@ -125,6 +125,8 @@ $ sudo cp lib64/libcudnn* /usr/local/cuda/lib64
 $ sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 ```
 
+And [official doc](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html) is pretty straight forward.
+
 
 ## Nvidia docker
 
