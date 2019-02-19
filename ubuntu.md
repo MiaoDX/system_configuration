@@ -1,3 +1,11 @@
+# Change rm behavior
+
+Put below into `.profile`
+
+``` vi
+alias rm="echo Try Use 'mv' to specific paths, or the full path i.e. '/bin/rm'"
+```
+
 # List of what have changed after a fresh install
 
 * firefox (Chinese version), can synchronize between windows and linux.
