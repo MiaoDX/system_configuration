@@ -13,7 +13,7 @@ First `search`, then `install` the specific version.
 `choco install`
 
 * [package control](https://packagecontrol.io/installation#st3)
-* OmniMarkupPreviewer, use `Ctrl+Alt+o` to open an html preview file
+* OmniMarkupPreviewer, use `Ctrl+Alt+o` to open a html preview file
 * MarkdownEditing, better look
 * spell check
     - Preferences->Settings-> User, append `"spell_check": true`

@@ -8,7 +8,7 @@ Maybe it's better to note `program` settings here.
 $ sudo apt-get install build-essential automake autoconf libtool pkg-config intltool libcurl4-openssl-dev libglib2.0-dev libevent-dev libminiupnpc-dev libminiupnpc5 libappindicator-dev
 ```
 
-then got:
+Then got:
 ``` vi
 Package libminiupnpc5 is not available, but is referred to by another package.
 This may mean that the package is missing, has been obsoleted, or
@@ -89,7 +89,7 @@ sed -i "s/nvidia-367/nvidia-375/g" `grep "nvidia-367" -r ./ -l`
 
 There is another blog seem nice, except the separate installation of Nvidia driver and Cuda is totally unnecessary!!
 
-[ref4,  Ubuntu14.04 + Nvidia Cuda8.0 + Caffe ](http://blog.csdn.net/yan_song_/article/details/53154611)
+[ref4,  Ubuntu14.04 + Nvidia Cuda8.0 + Caffe](http://blog.csdn.net/yan_song_/article/details/53154611)
 
 To check our installation (except building the examples):
 
@@ -140,11 +140,11 @@ And [official doc](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.h
 
 [pyimagesearch guide](http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
 
-I really want to not build from source, but the default `conda` will have trouble when show the image. Luckily, there is an wonder project called [menpo](http://www.menpo.org/)
+I really want to not build from source, but the default `conda` will have trouble when show the image. Luckily, there is a wonder project called [menpo](http://www.menpo.org/)
 
 >The Python framework for deformable modelling
 
-It have several conda repos and especially the [opencv3 one ](https://anaconda.org/menpo/opencv3), use it really seems nice.
+It has several conda repos and especially the [opencv3 one](https://anaconda.org/menpo/opencv3), use it really seems nice.
 
 ### possible problems
 

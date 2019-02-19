@@ -37,7 +37,7 @@ boost # for python binding
 conda update numpy opencv # repair incompatible libs by installing scikit-image
 ```
 
-~~And when install blas, openblas will also installed automatically, but this will case error like `_gfortran_etime@GFORTRAN_7`, we should manually delete the openblas lib from path (`/home/users/dongxu.miao/py_env/py36_dl_caffe_self/lib` here) by `rm libopenblas*`.~~ (Not so sure why, this is not necessary when I did a fresh installation with all libs from conda-forge)
+~~And when install blas, openblas will also be installed automatically, but this will case error like `_gfortran_etime@GFORTRAN_7`, we should manually delete the openblas lib from path (`/home/users/dongxu.miao/py_env/py36_dl_caffe_self/lib` here) by `rm libopenblas*`.~~ (Not so sure why, this is not necessary when I did a fresh installation with all libs from conda-forge)
 
 Before running, `export LD_LIBRARY_PATH=/home/users/dongxu.miao/py_env/py36_dl_caffe_self/lib:$LD_LIBARY_PATH` to make sure that the libs can be founded.
 

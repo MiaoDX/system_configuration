@@ -27,13 +27,13 @@ git commit -m "INIT, all files"
 
 
 ``` vi
-# 2. generate the executable files b2.exe and bjam.exe
+# 2. Generate the executable files b2.exe and bjam.exe
 bootstrap.bat
 ```
 
 ![normal_boostrap](pics/normal_boostrap.png)
 
-And we can have a look at the generated `project-config.jam` which determines some of the configurations for our build -- we are using msvc, it even did not mention which version of msvc we are using (since we did not give it any clue at all) -- other configurations are given by command line parameters as shown in `b2.exe` below.
+And we can have a look at the generated `project-config.jam` which determines some configurations for our build -- we are using msvc, it even did not mention which version of msvc we are using (since we did not give it any clue at all) -- other configurations are given by command line parameters as shown in `b2.exe` below.
 
 ![Clean project-config.jam](pics/project_config_ori.png)
 
@@ -59,7 +59,7 @@ And in case we can use the dlls and more is not bad than less, right? So let's c
 b2.exe --build-dir=build --stagedir=./stage/x64 --build-type=complete  address-model=64 --toolset=msvc-14.0 -j 6
 ```
 
-NOTE: the `address-model` is necessary since we need 64 bit version, `-j` will make our build much faster by using more cores in our CPU (adjust it according to your CPU, mine is 8 core, so 6 is okay). The output is tedious, some of the snippets are:
+NOTE: the `address-model` is necessary since we need 64 bit version, `-j` will make our build much faster by using more cores in our CPU (adjust it according to your CPU, mine is 8 cores, so 6 is okay). The output is tedious, some snippets are:
 
 
 ```

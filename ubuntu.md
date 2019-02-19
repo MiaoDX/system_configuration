@@ -27,7 +27,7 @@ sudo service ssh start
 * git
 * zsh & [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-set `oh-my-zsh` theme to `random` by change `~/.zshrc` file with `ZSH_THEME="random"`, since I have not find the prefer one to use.
+Set `oh-my-zsh` theme to `random` by change `~/.zshrc` file with `ZSH_THEME="random"`, since I have not found the better one to use.
 
 ## su
 
