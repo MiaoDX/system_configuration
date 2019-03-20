@@ -76,3 +76,11 @@ Customerize it, `right click -> preference -> Profiles -> Colors -> Build-in sch
 [The alternative tool of tortoisegit in windows for linux](http://rabbitvcs.org/)
 
 When only need to install the `rabbitvcs-nautilus` and `rabbitvcs-cli` (others are also doing no harm), [installation instructions can be found at official website](http://wiki.rabbitvcs.org/wiki/install/ubuntu)
+
+## Virtual console
+
+The virtual console of ubuntu (`Ctrl+Alt+F(1-6)`, note, `F7` is GUI windows and `F8-12` will bring black window to us) seems not bad, a nice way to separate different console windows apart.
+
+But the default console font is rather annoying, after some tweaking, we finally choose `UTF-8 -> Cuess optimal character set -> TerminusBold -> 11x22(framebuffer only)` after `sudo dpkg-reconfigure console-setup`. The font is acceptable.
+
+Refer to [how-do-i-increase-the-text-size-of-the-text-on-a-console](https://askubuntu.com/questions/29328/how-do-i-increase-the-text-size-of-the-text-on-a-console) for some in-depth discussion.
